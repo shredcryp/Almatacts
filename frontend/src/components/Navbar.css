@@ -1,0 +1,229 @@
+nav {
+  width: 100%;
+  height: 10vh;
+  background: #212121;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.search {
+  width: 20%;
+}
+
+.leftnav {
+  padding-left: 5px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  align-items: center;
+  color: #2c87f0;
+}
+
+.leftnav Link {
+  color: #2c87f0;
+  text-decoration: none;
+}
+
+.leftnav a {
+  color: #2c87f0;
+  /* Set color to #2c87f0 */
+  text-decoration: none;
+  /* Remove text decoration */
+}
+
+.rightnav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+
+
+.search input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c87f0;
+  padding: 2px;
+}
+
+.rightnav a {
+  color: white;
+  text-decoration: none;
+}
+
+.entry a {
+  margin: 3px;
+}
+
+.entry button {
+  margin: 3px;
+}
+
+.signupbutton {
+  height: 45px;
+  width: 9vh;
+  border-radius: 10px;
+  background: #42B72A;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.loginbutton {
+  width: 10vh;
+  height: 45px;
+  border-radius: 10px;
+  background: #2c87f0;
+  color: white;
+  font-size: 1.1rem;
+}
+
+.logoutbutton {
+  height: 45px;
+  width: 9vh;
+  border-radius: 10px;
+  background: red;
+  color: white;
+  font-size: 1.1rem;
+}
+
+/* For Modal */
+
+.modal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  color: black;
+}
+
+.modal-content {
+  position: absolute;
+  margin: auto;
+  width: 45%;
+  height: 45vh;
+  background: #212121;
+  border-radius: 15px;
+  color: white;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.modal-signup-button{
+  width: 100%;
+
+}
+
+h3 {
+  margin: auto;
+}
+
+h4 {
+  margin: auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-content input {
+
+  width: 90%;
+  height: 4vh;
+  font-size: 1rem;
+  margin: auto;
+  justify-content: center;
+  border-radius: 10px;
+
+
+}
+
+.modal-content button {
+  height: 45px;
+  width: 9vh;
+  border-radius: 10px;
+  background: #42B72A;
+  color: white;
+  font-size: 1.1rem;
+  margin: auto;
+}
+
+.signupbutton {
+  font-size: 1.1rem;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer
+}
+
+.loginbutton {
+  font-size: 1.1rem;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.dropbtn {
+  background-color: #212121;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  height: 50px;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #212121;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #212121;
+}
+
+.modal-signup-button button{
+  margin: auto;
+}
